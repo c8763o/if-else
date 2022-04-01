@@ -1,6 +1,14 @@
 int a = 5;
 int b = 3;
-if (a = b > 10)
+if (a + b > 10)
 {
 	console.WriteLine("The answer is greater than 10");
+}
+else if (a + b > 8)
+{
+	console.WriteLine("The answer is between 10 and 8");
+}
+else
+{
+	console.WriteLine("The answer is not greater than 8");
 }
