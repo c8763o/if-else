@@ -1,0 +1,6 @@
+int a = 5;
+int b = 3;
+if (a = b > 10)
+{
+	console.WriteLne("The answer is greater than 10");
+}
